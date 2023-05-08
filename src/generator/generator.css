@@ -1,0 +1,70 @@
+.wrapper {
+  border: 1px solid black;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  justify-content: center;
+}
+
+.password {
+  border: 1px solid black;
+  min-height: 30px;
+  margin: 12px;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+Button {
+  background-color: white;
+  padding: 8px;
+  margin: 16px;
+  width: 100px;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.slider {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 20px 0 30px;
+}
+
+h6 {
+  margin: 0;
+}
+
+.track {
+  position: relative;
+  background: blue;
+  top: 24px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.pointer {
+  background-color: blue;
+  top: 24px;
+  width: 10px;
+  height: 10px;
+  line-height: 38px;
+  border-radius: 10px;
+}
+
+.track.track-1 {
+  background: lightgrey;
+}
